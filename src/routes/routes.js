@@ -1,10 +1,14 @@
 import HomePage from "@/pages/HomePage.vue";
 import TodoDetails from '@/pages/TodoDetails.vue'
+import Discount from '@/pages/Discount.vue'
 
 export default [{
         name: 'home',
         path: "/",
-        component: HomePage,
+        components: {
+            default: HomePage,
+            discount: Discount
+        },
     },
     {
         name: 'todo-details',

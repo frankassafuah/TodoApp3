@@ -2,6 +2,7 @@
   <div class="app">
     <TodoHeader />
     <div>
+      <router-view name="discount"></router-view>
       <router-view></router-view>
     </div>
   </div>
